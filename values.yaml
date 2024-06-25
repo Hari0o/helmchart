@@ -5,7 +5,7 @@
 replicaCount: 2
 namespace: react-nginx
 image:
-  repository: reactdemo/react-nginx
+  repository: sagarkakkala385/react-nginx
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "latest"
