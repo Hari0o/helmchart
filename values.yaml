@@ -54,7 +54,7 @@ ingress:
       paths:
         - path: /
           pathType: Prefix
-  tls: []
+  tls: 
     - secretName: hari-dev-ssl
       hosts:
         - www.hari-dev.shop
